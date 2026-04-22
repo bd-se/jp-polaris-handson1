@@ -16,9 +16,16 @@
    ```
 
 2. 依存関係をインストールします。
+仮想環境として venv を使用する例です。
    ```
+   python3 -m venv .venv
+   source .venv/bin/activate
    pip install -r requirements.txt
+   pip list
    ```
+
+終了の際には、```deactivate``` を使用します。
+
 
 ## 使い方
 
@@ -29,7 +36,7 @@
 
 2. アプリケーションを実行します。
    ```
-   python main.py
+   python3 injection.py
    ```
 
 ## 注意事項
