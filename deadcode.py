@@ -24,5 +24,5 @@ if __name__ == "__main__":
         if(DEBUG):
             print(f"DEBUG: {year} is a leap year.")
         else:
-            print(f"Log:{year} is a leap year.")
+            print(f"DEBUG: {year} is a leap year.")
 
